@@ -1,5 +1,13 @@
 public class TypeWeaknessChart {
 
+    /**
+     * Gets the defensive multiplier of the type matchup.
+     *
+     * @param defending The type of the defending Pokemon.
+     * @param attacking The type of attack.
+     * @return The defensive multiplier of this matchup.
+     */
+
     static public double getWeakness(Types defending, Types attacking){
         return switch (defending) {
             case NORMAL -> switch (attacking) {

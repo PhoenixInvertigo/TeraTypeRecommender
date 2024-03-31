@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+/**
+ * Author: Ryo Kilgannon
+ * Date: 3/31/2024
+ *
+ * This program allows the user to input one
+ * or two Pokemon types separated by a space,
+ * then prints the top 5 recommended defensive
+ * tera types for that Pokemon's typing.
+ */
 public class TeraTypeRecommender {
 
     public static void main(String[] args){
